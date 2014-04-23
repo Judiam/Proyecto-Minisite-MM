@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background: black;
+margin: 0;
+
+}
+
+header
+{
+
+margin: 2em 0 0 0;
+padding:0;
+   
+
+}
+
+header .barra_blanca
+{
+background: white;
+   
+    padding: 1em 0 1em 0;
+
+}
+
+header .barra_blanca .barra_gris
+{
+
+background: gray;
+min-height: 15;
+
+}
+
+header .titulo 
+{
+    text-align: center;
+    color: white;
+}
+
+header #nav_principal 
+{
+
+    width: 100%;
+    overflow: hidden;
+    padding: 5em;
+    
+    
+    
+}
+
+header #nav_principal .mary{
+    width: 60%;
+    margin-bottom: 0;
+
+}
+
+header #nav_principal .mary img
+{
+
+width: 100%;
+     margin-bottom: 0;
+
+}
+
+//header #nav_principal .lista
+{
+   
+    list-style: none;
+    text-align: center;
+    width: 30%;
+    margin-top: -20em;
+
+    
+}
+/*-----menu principal----*/
+#nav_principal .lista .link_a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5%;
+    background-color: #979E98;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+}
+
+#nav_principal .lista .link_a .item_1
+{
+  
+  border-radius: 10px;  
+  font-family: verdana;
+  font-size: 1.3em;
+  display:block;
+    text-align: center;
+
+
+}
+
+/*PRUEBAAA.......................................*/
+#cajaimagen{
+width: 95%;
+
+
+
+}
+
+#cajaimg1{
+width:45%;
+float: left;
+    
+     
+
+}
+
+#cajaimg2{
+width: 40%;
+float: right;
+
+}
+/*--------barra blanca---------*/
+header .barra2_blanca, 
+#contenido .fallecimiento .barra2_blanca,
+#contenido .historia .barra2_blanca,
+#contenido .amores .barra2_blanca
+{
+ background: white;
+ padding: 1em 0 1em 0;
+    
+/*--------barra2gris---------*/
+}
+header .barra2_blanca .barra2_gris, 
+#contenido .fallecimiento .barra2_gris,
+#contenido .historia .barra2_gris,
+#contenido .amores .barra2_gris
+
+{
+
+background: gray;
+min-height: 15;
+
+}
+
+#contenido .titulo 
+{
+color: white;
+text-align: center;
+font-size: 3em;  
+font-family: bilbo;
+}
+
+
+
+
+#contenido .texto
+{
+
+color: white;
+text-align: justify;
+padding:  0 2em 0 2em;
+margin: 0 10em 0 10em;
+font-size: 1em;
+font-family: verdana;
+    margin-bottom: 3em;
+}
+
+#contenido #esposo img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+
+}
+
+#contenido #esposo1 img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+}
+
+#contenido #esposo2 img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+}
+
+#contenido #esposo3 img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+}
+
+#contenido #esposo4 img
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+    
+}
+ footer
+{  
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    background: grey;
+}
